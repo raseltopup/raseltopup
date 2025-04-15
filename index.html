@@ -1,41 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>RASEL TOP UP</title>
   <style>
     body {
-      background-color: black;
-      color: white;
       font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #ffffff;
       text-align: center;
-      padding: 30px;
+      padding: 20px;
     }
     h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 18px;
-    }
-    .contact {
-      margin-top: 30px;
+      color: #00ffcc;
     }
     .contact a {
       color: #00ffcc;
       text-decoration: none;
     }
+    .form-container {
+      margin-top: 30px;
+      background-color: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+    input, select, button {
+      padding: 10px;
+      margin: 10px;
+      width: 90%;
+      max-width: 300px;
+      border-radius: 5px;
+      border: none;
+      font-size: 16px;
+    }
+    button {
+      background-color: #00ffcc;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .note {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #aaaaaa;
+    }
   </style>
 </head>
 <body>
   <h1>RASEL TOP UP</h1>
-  <p>Free Fire Diamond Top-Up Shop</p>
+  <h2>Free Fire Diamond Top-Up Shop</h2>
   <p>ডায়মন্ড কিনুন সহজে, নিরাপদে!</p>
+
   <div class="contact">
     <p>Facebook: <a href="https://www.facebook.com/MDRASELRANA0015" target="_blank">MD RASEL</a></p>
     <p>WhatsApp: <a href="https://wa.me/8801728628133" target="_blank">+880 1728-628133</a></p>
-    <p>bKash/Nagad: 01728628133</p>
+    <p>bKash/Nagad: <strong>01728628133</strong></p>
+  </div>
+
+  <div class="form-container">
+    <form>
+      <input type="text" name="uid" placeholder="Free Fire UID" required /><br/>
+      <select name="package" required>
+        <option value="">ডায়মন্ড প্যাকেজ সিলেক্ট করুন</option>
+        <option value="50">৫০ ডায়মন্ড - ৪০৳</option>
+        <option value="100">১০০ ডায়মন্ড - ৮০৳</option>
+        <option value="200">২০০ ডায়মন্ড - ১৫০৳</option>
+        <option value="300">৩০০ ডায়মন্ড - ২২০৳</option>
+        <option value="500">৫০০ ডায়মন্ড - ৩৫০৳</option>
+        <option value="1000">১০৫০ ডায়মন্ড - ৭৫০৳</option>
+      </select><br/>
+      <select name="payment_method" required>
+        <option value="">পেমেন্ট পদ্ধতি নির্বাচন করুন</option>
+        <option value="bKash">bKash</option>
+        <option value="Nagad">Nagad</option>
+      </select><br/>
+      <input type="text" name="trxid" placeholder="Transaction ID" required /><br/>
+      <button type="submit">টপ-আপ করুন</button>
+    </form>
+  </div>
+
+  <div class="note">
+    <p>পেমেন্ট কনফার্ম হলে ১০ মিনিটের মধ্যে ডায়মন্ড পাঠানো হবে।</p>
   </div>
 </body>
-                   </html>
+                                                                                </html>
